@@ -1,7 +1,7 @@
 package com.liupan.springcloud.service.impl;
 
 import com.liupan.springcloud.dao.PaymentDao;
-import com.liupan.springcloud.entites.Payment;
+import com.liupan.springcloud.entities.Payment;
 import com.liupan.springcloud.service.PaymentService;
 import org.springframework.stereotype.Service;
 

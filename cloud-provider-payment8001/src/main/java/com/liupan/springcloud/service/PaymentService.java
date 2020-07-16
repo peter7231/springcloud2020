@@ -1,6 +1,6 @@
 package com.liupan.springcloud.service;
 
-import com.liupan.springcloud.entites.Payment;
+import com.liupan.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 
 public interface PaymentService {
