@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.liupan.springcloud</groupId>
-    <artifactId>cloud-eurake-server7001</artifactId>
+    <artifactId>cloud-eurake-server7002</artifactId>
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->

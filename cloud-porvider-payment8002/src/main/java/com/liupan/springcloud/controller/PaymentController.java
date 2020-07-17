@@ -28,7 +28,7 @@ public class PaymentController
         log.info("---测试热部署--1-");
         log.info("----插入结果："+result);
         if(result>0){
-            return new CommonResult(200,"插入数据成功，server port ="+serverPort,result);
+            return new CommonResult(200,"插入数据成功,server port :"+serverPort,result);
         }else{
             return new CommonResult(200,"插入数据失败");
         }
@@ -43,7 +43,7 @@ public class PaymentController
         if(payment != null){
             return new CommonResult(200,"查询成功,server port:"+serverPort,payment);
         }else{
-            return new CommonResult(200,"查询没有纪录，查询 id="+id);
+            return new CommonResult(200,"没有对应纪录，查询 id="+id);
         }
     }
 }
